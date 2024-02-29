@@ -54,7 +54,7 @@ body, html {
     color: white;
 }
 .left-half2 {
-    background-image: url('imgs/location.PNG');
+    background-image: url('imgs/location.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -87,7 +87,7 @@ body, html {
 
 
 .right-half3 {
-    background-image: url('imgs/shop.JPG');
+    background-image: url('imgs/shop.jpg');
 	background-size: cover;
     background-position: center;
     display: flex;
@@ -156,6 +156,12 @@ h1{
 h2{
 	text-align: center;
 	text-decoration: underline;
+}
+h3{
+	text-align: center;
+}
+h4{
+	text-align: center;
 }
 
 /* CSS for styling the info box */

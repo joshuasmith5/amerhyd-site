@@ -1,0 +1,204 @@
+nav {
+    background-color: #06007D;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+        
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+        
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Adjust spacing between tabs */
+}
+        
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+        
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* CSS for styling the layout */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+        
+.container {
+    display: flex;
+    height: 100%;
+}
+        
+.left-half, .right-half, .left-half2 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-half {
+    background-image: url('imgs/logo2.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.left-half2 {
+    background-image: url('imgs/location.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.right-half {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-half2 {
+    background-image: url('imgs/machine.jpg');
+	background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+	width:50%
+}
+
+
+.right-half3 {
+    background-image: url('imgs/shop.jpg');
+	background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+	width:50%
+}
+
+.right-half1 {
+    background-image: url('imgs/drill.jpg');
+	background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+	width:50%
+}
+
+        
+.text {
+    max-width: 80%;
+	
+}
+
+.logo-size {
+    width: 8%; /* Display the image at half its original size */
+    height: 100%; /* Maintain aspect ratio */
+	margin:0;
+	padding:0;
+}
+
+.poster-size {
+    width: 20%; /* Display the image at half its original size */
+    height: 100%; /* Maintain aspect ratio */
+	margin:0;
+	padding:0;
+}
+
+.maps{
+	display: block;
+	width: 100%; /* Ensure anchor fills the entire container width */
+    height: 100%; /* Ensure anchor fills the entire container height */
+    text-decoration: none; /* Remove default underline */
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+h1{
+	align-items: center;
+	font-size: 28px;
+	margin: 0;
+	color: white;
+	
+}
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* CSS for styling the info box */
+.info-box {
+	font-size: 20px;
+    border: 2px solid #06007D;
+    border-radius: 5px;
+    padding: 20px;
+    width: auto; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+	color: white;
+	background-color: rgba(6,0,125,0.7);
+}
+.info-box2 {
+	font-size: 25px;
+    border: 2px solid #06007D;
+    border-radius: 20px;
+    padding: 20px;
+    width: auto; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+	color: white;
+	background-color: rgba(6,0,125,0.7);
+	
+	/*
+	background-color: #06007D;
+	opacity:100%;
+	*/
+}
+.info-box h3 {
+    margin-top: 0; /* Remove default top margin for h3 */
+}
+
+footer{
+	background-color: #06007D;
+	color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 12px 20px;
+	text-decoration: underline;
+}
+
+p{
+	text-align: center;
+}

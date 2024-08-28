@@ -1,3 +1,5 @@
+/* made by Joshua Smith (joshuadavidsmith5@gmail.com) */
+
 nav {
     background-color: #06007D;
     overflow: hidden;
@@ -41,20 +43,23 @@ body, html {
     height: 100%;
 }
         
-.left-half, .right-half, .left-half2 {
+.left-half, .right-half, .left-half2, .left-half-shop {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
 }
 
+/*index class*/
 .left-half {
     background-image: url('imgs/logo2.png');
     background-size: cover;
     background-position: center;
     color: white;
 }
+
+/*contact class*/
 .left-half2 {
-    background-image: url('imgs/location.PNG');
+    background-image: url('imgs/location.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -62,6 +67,19 @@ body, html {
 	margin: 0;
 	padding: 0;
 	border: none;
+}
+
+/*shop class*/
+.left-half-shop {
+    background-image: url('imgs/pump.png');
+	background-size: cover;
+    background-position: center;
+    color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+   
 }
 
 .right-half {
@@ -87,7 +105,22 @@ body, html {
 
 
 .right-half3 {
-    background-image: url('imgs/shop.JPG');
+    background-image: url('imgs/shop.jpg');
+	background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: white;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+	width:50%
+}
+
+.right-half-shop {
+    background-image: url('imgs/pump.png');
 	background-size: cover;
     background-position: center;
     display: flex;
